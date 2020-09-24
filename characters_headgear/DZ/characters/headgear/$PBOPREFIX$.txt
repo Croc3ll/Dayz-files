@@ -1,0 +1,6 @@
+﻿///<'characters_headgear.pbo' properties via Mikero's dos tools, dll version 7.16>///
+prefix=DZ\characters\headgear
+revision=44502
+//Pbo Type is: Arma Addon
+//Sha: 'E92F690EDA9EDB036CAE43231BE21D1611031577'
+//////</properties>//////
