@@ -1,0 +1,6 @@
+﻿///<'weapons_firearms.pbo' properties via Mikero's dos tools, dll version 7.16>///
+prefix=DZ\weapons\firearms
+revision=44847
+//Pbo Type is: Arma Addon
+//Sha: '4897D75700B04579F4AB68191F2D70DCBB6471F9'
+//////</properties>//////
