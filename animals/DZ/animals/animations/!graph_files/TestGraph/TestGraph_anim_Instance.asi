@@ -1,0 +1,8 @@
+$animsetinstance {
+ #template "dz/animals/animations/!graph_files/testgraph/testgraph.ast"
+ #nparents 0
+ #nsources 2
+ $animations {
+   "run" "dz/animals/animations/deer_skeleton/run.anm"
+   "stand_grazing" "dz/animals/animations/deer_skeleton/stand_grazing.anm"
+ }

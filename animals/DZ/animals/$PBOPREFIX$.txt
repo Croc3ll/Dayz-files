@@ -1,0 +1,6 @@
+﻿///<'animals.pbo' properties via Mikero's dos tools, dll version 7.16>///
+prefix=DZ\animals
+revision=45099
+//Pbo Type is: Arma Addon
+//Sha: '2F42F59345E306DD319038AB5D9EB5E67A1AF616'
+//////</properties>//////

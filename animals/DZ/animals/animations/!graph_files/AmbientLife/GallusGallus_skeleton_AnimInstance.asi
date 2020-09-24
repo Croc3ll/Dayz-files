@@ -1,0 +1,32 @@
+$animsetinstance {
+ #template "dz/animals/animations/!graph_files/ambientlife/ambientlife.ast"
+ #nparents 0
+ #nsources 26
+ $animations {
+   "death" "dz/animals/animations/cock_skeleton/death.anm"
+   "death_end" "dz/animals/animations/cock_skeleton/death_end.anm"
+   "jump_run_H110_L350" "dz/animals/animations/cock_skeleton/jump_run_H110_L350.anm"
+   "jump_run_H160_L350" "dz/animals/animations/cock_skeleton/jump_run_H160_L350.anm"
+   "jump_walk_H110_L350" "dz/animals/animations/cock_skeleton/jump_walk_H110_L350.anm"
+   "run" "dz/animals/animations/cock_skeleton/run.anm"
+   "run_escape" "dz/animals/animations/cock_skeleton/run_escape.anm"
+   "run_turn_L144" "dz/animals/animations/cock_skeleton/run_turn_L144.anm"
+   "run_turn_R144" "dz/animals/animations/cock_skeleton/run_turn_R144.anm"
+   "stand_eating" "dz/animals/animations/cock_skeleton/stand_eating.anm"
+   "stand_eating_2_stand_nervous" "dz/animals/animations/cock_skeleton/stand_eating_2_stand_nervous.anm"
+   "stand_eating_idle_1" "dz/animals/animations/cock_skeleton/stand_eating_idle_1.anm"
+   "stand_eating_idle_2" "dz/animals/animations/cock_skeleton/stand_eating_idle_2.anm"
+   "stand_eating_idle_3" "dz/animals/animations/cock_skeleton/stand_eating_idle_3.anm"
+   "stand_eating_idle_4" "dz/animals/animations/cock_skeleton/stand_eating_idle_4.anm"
+   "stand_nervous" "dz/animals/animations/cock_skeleton/stand_nervous.anm"
+   "stand_nervous_2_stand_eating" "dz/animals/animations/cock_skeleton/stand_nervous_2_stand_eating.anm"
+   "stand_nervous_left" "dz/animals/animations/cock_skeleton/stand_nervous_left.anm"
+   "stand_nervous_right" "dz/animals/animations/cock_skeleton/stand_nervous_right.anm"
+   "start_run_F" "dz/animals/animations/cock_skeleton/start_run_F.anm"
+   "start_run_L144" "dz/animals/animations/cock_skeleton/start_run_L144.anm"
+   "start_run_L72" "dz/animals/animations/cock_skeleton/start_run_L72.anm"
+   "start_run_R144" "dz/animals/animations/cock_skeleton/start_run_R144.anm"
+   "start_run_R72" "dz/animals/animations/cock_skeleton/start_run_R72.anm"
+   "walk" "dz/animals/animations/cock_skeleton/walk.anm"
+   "walk_eating" "dz/animals/animations/cock_skeleton/walk_eating.anm"
+ }

@@ -1,0 +1,28 @@
+$AnimGraph 4 {
+	#AnimSetTemplate "dz/animals/animations/!graph_files/herbivores/herbivores_animtemplate.ast"
+	$Controls {
+		$Commands {
+			 CMD_Death -1
+			 CMD_JumpType -1
+		}
+		$Vars {
+			#Var behaviorAction int 0 0 6 ""
+			#Var speed float 0.0 0.0 5.0 ""
+			#Var turn float 0.0 -180.0 180.0 ""
+			#Var alertLevel int 0 0 4 ""
+			#Var lookAtEnabled bool 0 ""
+			#Var lookAtEnabled_float float 0.0 0.0 1.0 ""
+			#Var lookXAngle float 0.0 -180.0 180.0 ""
+			#Var lookYAngle float 0.0 -90.0 90.0 ""
+		}
+		$Expressions {
+		}
+		$DebugControls {
+			
+			#DCtrl 1 "Behaviors" "GrazingOnSpot" "" "behaviorAction"
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/herbivores/Herbivores_MainGraph.agr"
+	}
+}

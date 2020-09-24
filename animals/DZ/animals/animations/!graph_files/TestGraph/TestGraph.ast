@@ -1,0 +1,12 @@
+$animsettemplate {
+ #ngrouptypes 1
+ $groupType {
+  #ngroupnames 0
+  #nanims 2
+  $anims {
+    "run"
+    "stand_grazing"
+   
+  }
+ }
+}

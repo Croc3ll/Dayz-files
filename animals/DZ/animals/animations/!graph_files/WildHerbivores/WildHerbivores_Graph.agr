@@ -1,0 +1,38 @@
+$AnimGraph 4 {
+	#AnimSetTemplate "dz/animals/animations/!graph_files/wildherbivores/wildherbivores.ast"
+	#AnimSyncTable "dz/animals/animations/!graph_files/wildherbivores/wildherbivoressynctable.asy"
+	$Controls {
+		$Commands {
+			 CMD_death -1
+			 CMD_look -1
+			 CMD_lookstop -1
+		}
+		$Vars {
+			#Var speed float 0.0 0.0 4.0 ""
+			#Var behaviorAction int 0 0 5 ""
+			#Var lookAtEnabled bool 0 ""
+			#Var turn float 0.0 -180.0 180.0 ""
+			#Var alertLevel int 0 0 4 ""
+			#Var lookXAngle float 0.0 -180.0 180.0 ""
+			#Var lookYAngle float 0.0 -90.0 90.0 ""
+			#Var lookAtEnable_int float 0.0 0.0 1.0 ""
+		}
+		$Expressions {
+			
+			#Expr EXP_Turn_F "turn > -36 && turn < 36"
+			
+			#Expr EXP_Turn_L72 "turn <= -36 && turn > -108"
+			
+			#Expr EXP_Turn_R72 "turn >= 36 && turn < 108"
+			
+			#Expr EXP_Turn_L144 "turn <= -108 && turn > -180"
+			
+			#Expr EXP_Turn_R144 "turn >= 108 && turn < 180"
+		}
+		$DebugControls {
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/wildherbivores/WildHerbivores_MainGraph.agr"
+	}
+}

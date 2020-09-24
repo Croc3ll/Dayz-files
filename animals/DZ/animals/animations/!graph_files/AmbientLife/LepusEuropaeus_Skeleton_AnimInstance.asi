@@ -1,0 +1,25 @@
+$animsetinstance {
+ #template "dz/animals/animations/!graph_files/ambientlife/ambientlife.ast"
+ #nparents 0
+ #nsources 26
+ $animations {
+   "death" "dz/animals/animations/hare_skeleton/death.anm"
+   "death_end" "dz/animals/animations/hare_skeleton/death_end.anm"
+   "run" "dz/animals/animations/hare_skeleton/run.anm"
+   "run_escape" "dz/animals/animations/hare_skeleton/run.anm"
+   "stand_eating" "dz/animals/animations/hare_skeleton/stand_grazing.anm"
+   "stand_eating_2_stand_nervous" "dz/animals/animations/hare_skeleton/stand_grazing_2_stand_nervous.anm"
+   "stand_eating_idle_1" "dz/animals/animations/hare_skeleton/stand_grazing_idle_1.anm"
+   "stand_eating_idle_2" "dz/animals/animations/hare_skeleton/stand_grazing_idle_2.anm"
+   "stand_eating_idle_3" "dz/animals/animations/hare_skeleton/stand_grazing_idle_3.anm"
+   "stand_eating_idle_4" "dz/animals/animations/hare_skeleton/stand_grazing_idle_3.anm"
+   "stand_nervous" "dz/animals/animations/hare_skeleton/stand_nervous.anm"
+   "stand_nervous_2_stand_eating" "dz/animals/animations/hare_skeleton/stand_nervous_2_stand_grazing.anm"
+   "start_run_F" "dz/animals/animations/hare_skeleton/start_run_F.anm"
+   "start_run_L144" "dz/animals/animations/hare_skeleton/start_run_L144.anm"
+   "start_run_L72" "dz/animals/animations/hare_skeleton/start_run_L72.anm"
+   "start_run_R144" "dz/animals/animations/hare_skeleton/start_run_R144.anm"
+   "start_run_R72" "dz/animals/animations/hare_skeleton/start_run_R72.anm"
+   "walk" "dz/animals/animations/hare_skeleton/run.anm"
+   "walk_eating" "dz/animals/animations/hare_skeleton/walk_grazing.anm"
+ }

@@ -1,0 +1,15 @@
+$AnimGraph 3 {
+	#AnimSetTemplate "dz/animals/animations/!graph_files/testgraph/testgraph.ast"
+	$Controls {
+		$Commands {
+		}
+		$Vars {
+			#Var speed float 0.0 0.0 1.0 ""
+		}
+		$Expressions {
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/testgraph/TestGraph_maingraph.agr"
+	}
+}

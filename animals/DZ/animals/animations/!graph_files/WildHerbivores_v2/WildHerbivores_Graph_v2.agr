@@ -1,0 +1,28 @@
+$AnimGraph 4 {
+	#AnimSetTemplate "dz/animals/animations/!graph_files/wildherbivores/wildherbivores.ast"
+	$Controls {
+		$Commands {
+			 CMD_JumpType -1
+		}
+		$Vars {
+			#Var speed float 0.0 0.0 4.0 ""
+			#Var alertLevel int 0 0 4 ""
+			#Var behaviorAction int 0 0 5 ""
+			#Var lookAtEnabled bool 0 ""
+			#Var lookAtEnabled_float float 0.0 0.0 1.0 ""
+			#Var lookAtEnabled_int int 0 0 1 ""
+			#Var lookXAngle float 0.0 -180.0 180.0 ""
+			#Var lookYAngle float 0.0 -90.0 90.0 ""
+			#Var turn float 0.0 -180.0 180.0 ""
+		}
+		$Expressions {
+			
+			#Expr remainingTime "RemainingTimeLess (0.1)"
+		}
+		$DebugControls {
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/wildherbivores_v2/WildHerbivores_MainGraph_v2.agr"
+	}
+}

@@ -1,0 +1,44 @@
+$AnimGraph 3 {
+	$Sheet "master" {
+		$Node AnimNodeSource {
+			 "stand_anim" "" "stand_grazing" "loop"
+			$EditorData {
+				#EditorPos -1.8000001 1.6
+			}
+		}
+		$Node AnimNodeSource {
+			 "run_anim" "" "run" "loop"
+			$EditorData {
+				#EditorPos 1.7 1.6
+			}
+		}
+		$Node AnimNodeStateMachine {
+			 "AnimNodeStateMachine" ""
+			$States 2 {
+				$State {
+					 "stand" "" "stand_anim" "true" "notime" 0
+					$EditorData {
+						#EditorPos -1.8000001 4.0
+					}
+				}
+				$State {
+					 "run" "" "run_anim" "" "notime" 0
+					$EditorData {
+						#EditorPos 1.7 4.0
+					}
+				}
+			}
+			$Transitions 2 {
+				$Transition {
+					 "stand" "run" "speed >= 0.01" "" "" 0 "S"
+				}
+				$Transition {
+					 "run" "stand" "speed < 0.01" "" "" 0 "S"
+				}
+			}
+			$EditorData {
+				#EditorPos -2.5 5.8000002
+			}
+		}
+	}
+}

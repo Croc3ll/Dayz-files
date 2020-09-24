@@ -1,0 +1,77 @@
+$animsettemplate {
+ #ngrouptypes 3
+ $groupType {
+  #ngroupnames 0
+  #nanims 27
+  $anims {
+    "RunTurn_L144"
+    "RunTurn_R144"
+    "Walk_Grazing_2_Stand_Nervous"
+    "Walk_Grazing_Turn_L144"
+    "Walk_Grazing_Turn_L72"
+    "Walk_Grazing_Turn_R72"
+    "Walk_Grazing_turn_R144"
+    "jump_run_H110_L800"
+    "lookat_LD_FD_RD_LZ_FZ_RZ_LU_FU_RU"
+    "partial_movetest"
+    "resting"
+    "resting_2_stand_grazing"
+    "resting_2_stand_nervous"
+    "resting_lookat_LD_FD_RD_LZ_FZ_RZ_LU_FU_RU"
+    "run"
+    "run_slow"
+    "stand_grazing"
+    "stand_grazing_2_resting"
+    "stand_grazing_2_stand_nervous"
+    "stand_nervous"
+    "stand_nervous_2_resting"
+    "stand_nervous_2_stand_grazing"
+    "stand_nervouse"
+    "trot"
+    "walk"
+    "walk_grazing"
+    "walk_grazing_lookat"
+   
+  }
+ }
+ $groupType "LookAt" {
+  #ngroupnames 2
+  #nanims 9
+  $groupnames {
+    "Nervous"
+    "Resting"
+   
+  }
+  $anims {
+    "lookat_F_D"
+    "lookat_F_U"
+    "lookat_F_Z"
+    "lookat_L90_D45"
+    "lookat_L90_U45"
+    "lookat_L90_Z"
+    "lookat_R90_D45"
+    "lookat_R90_U45"
+    "lookat_R90_Z"
+   
+  }
+ }
+ $groupType "StartTurns" {
+  #ngroupnames 4
+  #nanims 5
+  $groupnames {
+    "StartRun"
+    "StartRunResting"
+    "StartWalk"
+    "StartWalkNervous"
+   
+  }
+  $anims {
+    "Start_F"
+    "Start_L144"
+    "Start_L72"
+    "Start_R144"
+    "Start_R72"
+   
+  }
+ }
+}

@@ -1,0 +1,19 @@
+$animsetinstance {
+ #template "dz/animals/animations/!graph_files/wildherbivores/wildherbivores.ast"
+ #nparents 0
+ #nsources 62
+ $animations {
+   "resting" "dz/animals/animations/deer_fem_skeleton/resting.anm"
+   "resting_idle_1" "dz/animals/animations/deer_fem_skeleton/resting_idle_1.anm"
+   "resting_idle_2" "dz/animals/animations/deer_fem_skeleton/resting_idle_2.anm"
+   "run" "dz/animals/animations/deer_fem_skeleton/run.anm"
+   "stand_grazing" "dz/animals/animations/deer_fem_skeleton/stand_grazing.anm"
+   "stand_grazing_idle_1" "dz/animals/animations/deer_fem_skeleton/stand_grazing_idle_1.anm"
+   "stand_grazing_idle_2" "dz/animals/animations/deer_fem_skeleton/stand_grazing_idle_2.anm"
+   "stand_grazing_idle_3" "dz/animals/animations/deer_fem_skeleton/stand_grazing_idle_3.anm"
+   "stand_nervous" "dz/animals/animations/deer_fem_skeleton/stand_nervous.anm"
+   "trot" "dz/animals/animations/deer_fem_skeleton/trot.anm"
+   "walk" "dz/animals/animations/deer_fem_skeleton/walk.anm"
+   "walk_grazing" "dz/animals/animations/deer_fem_skeleton/walk_grazing.anm"
+  
+ }

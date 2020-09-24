@@ -1,0 +1,20 @@
+$AnimGraph 4 {
+	#AnimSetTemplate "dz/animals/animations/!graph_files/ambientlife/ambientlife.ast"
+	$Controls {
+		$Commands {
+			 CMD_JumpType -1
+		}
+		$Vars {
+			#Var speed float 0.0 0.0 5.0 ""
+			#Var behaviorAction int 0 0 4 ""
+			#Var turn float 0.0 -180.0 180.0 ""
+		}
+		$Expressions {
+		}
+		$DebugControls {
+		}
+	}
+	$Files {
+		 "dz/animals/animations/!graph_files/ambientlife/AmbientLife_MainGraph.agr"
+	}
+}
