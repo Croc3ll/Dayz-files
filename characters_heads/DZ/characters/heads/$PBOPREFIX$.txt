@@ -1,0 +1,6 @@
+﻿///<'characters_heads.pbo' properties via Mikero's dos tools, dll version 7.16>///
+prefix=DZ\characters\heads
+revision=42673
+//Pbo Type is: Arma Addon
+//Sha: '79A8B260935F66BE4E80D2EA208CB817688C1904'
+//////</properties>//////

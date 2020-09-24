@@ -1,0 +1,105 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: characters_heads\data\hhl_m_african_01_bloodyhands.rvmat
+//Produced from mikero's Dos Tools Dll version 7.16
+//https://armaservices.maverick-applications.com/Products/MikerosDosTools/default
+//'now' is Sun Jul 28 07:42:50 2019 : 'file' last modified on Mon Sep 26 15:11:36 2016
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+class StageTI
+{
+	texture = "dz\characters\heads\data\hhl_m_ti_ca.paa";
+};
+ambient[] = {0.9,0.9,0.9,1};
+diffuse[] = {1,1,1,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {0.1,0.1,0.1,1};
+specularPower = 180;
+PixelShaderID = "Super";
+VertexShaderID = "Super";
+class Stage1
+{
+	texture = "dz\characters\heads\data\hhl_m_african_01_nohq.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage2
+{
+	texture = "#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage3
+{
+	texture = "dz\characters\heads\data\bloodyhands_mc.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage4
+{
+	texture = "dz\characters\heads\data\hhl_m_as.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage5
+{
+	texture = "dz\characters\heads\data\bloodyhands_smdi.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage6
+{
+	texture = "#(ai,64,64,1)fresnel(1.0,0.5)";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1,0,0};
+		up[] = {0,1,0};
+		dir[] = {0,0,0};
+		pos[] = {0,0,0};
+	};
+};
+class Stage7
+{
+	texture = "dz\data\data\env_land_co.paa";
+	uvSource = "tex";
+	class uvTransform
+	{
+		aside[] = {1.0,0.0,0.0};
+		up[] = {0.0,1.0,0.0};
+		dir[] = {0.0,0.0,0.0};
+		pos[] = {0.0,0.0,0.0};
+	};
+};
